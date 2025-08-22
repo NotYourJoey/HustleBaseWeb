@@ -5,11 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HustleBase - Your Ultimate Business Management Solution</title>
     <meta name="description" content="HustleBase - Streamline your business operations with our comprehensive management app. Track inventory, manage customers, and grow your business efficiently.">
+    <meta name="keywords" content="business management, inventory tracking, customer management, business app, entrepreneurship, small business, productivity, analytics">
+    <meta name="author" content="HustleBase">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hustlebaseonline.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hustlebaseonline.com">
+    <meta property="og:title" content="HustleBase - Your Ultimate Business Management Solution">
+    <meta property="og:description" content="Streamline your business operations with our comprehensive management app. Track inventory, manage customers, and grow your business efficiently.">
+    <meta property="og:image" content="https://hustlebaseonline.com/images/hustlebaseweblogo.png">
+    <meta property="og:site_name" content="HustleBase">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hustlebaseonline.com">
+    <meta property="twitter:title" content="HustleBase - Your Ultimate Business Management Solution">
+    <meta property="twitter:description" content="Streamline your business operations with our comprehensive management app. Track inventory, manage customers, and grow your business efficiently.">
+    <meta property="twitter:image" content="https://hustlebaseonline.com/images/hustlebaseweblogo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "HustleBase",
+        "description": "Streamline your business operations with our comprehensive management app. Track inventory, manage customers, and grow your business efficiently.",
+        "url": "https://hustlebaseonline.com",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Android, iOS",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free starter plan available"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1250"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "HustleBase",
+            "url": "https://hustlebaseonline.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://hustlebaseonline.com/images/hustlebaseweblogo.png"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "561 Sherbourne St",
+                "addressLocality": "Toronto",
+                "addressRegion": "ON",
+                "postalCode": "M4X 0A1",
+                "addressCountry": "CA"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-437-669-9652",
+                "contactType": "customer service",
+                "email": "info@hustlebaseonline.com"
+            }
+        }
+    }
+    </script>
+    
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -33,10 +113,10 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero" role="banner" aria-labelledby="hero-title">
         <div class="hero-container">
             <div class="hero-content">
-                <h1>Transform Your Business with <span class="highlight">HustleBase</span></h1>
+                <h1 id="hero-title">Transform Your Business with <span class="highlight">HustleBase</span></h1>
                 <p>The ultimate all-in-one business management solution designed to streamline your operations, boost productivity, and drive growth.</p>
                 <div class="hero-buttons">
                     <a href="#download" class="btn-primary">
